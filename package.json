@@ -1,6 +1,6 @@
 {
   "name": "semantic-ui-canjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CanJS wrapper around SemanticUI Modules",
   "main": "main.js",
   "scripts": {
@@ -12,9 +12,11 @@
   },
   "keywords": [
     "SemanticUI",
+    "semantic-ui",
     "Can",
     "CanJS",
-    "Popup"
+    "Popup",
+    "Accordion"
   ],
   "author": "Ilya Fadeev",
   "license": "MIT",

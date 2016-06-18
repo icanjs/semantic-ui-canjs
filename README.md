@@ -1,4 +1,4 @@
-# semantic-ui-popup-canjs
+# semantic-ui-canjs
 CanJS wrapper around SemanticUI modules
 
 A [can.view.attr](https://canjs.com/docs/can.view.attr.html) wrapper around [SemanticUI modules](http://semantic-ui.com/modules/accordion.html). With `can.view.attr` you can add custom behavior to elements that contain a specified html attribute. Since SemanticUI is a set of jQuery plugins, `can.view.attr` is a natural way to invoke them in a [CanJS](https://canjs.com) or [DoneJS](https://donejs.com/) application.
@@ -20,15 +20,14 @@ See the included demo /demo/demo.html (run `npm install`, then `http-server` in 
 ![Popup Demo](./demo/demo-popup.png) ![Popup Demo 2](./demo/demo-popup2.png) ![Popup Demo 3](./demo/demo-accordion.png)
 
 ## Installation
+
+Install the wrapper and the desired SemanticUI modules (if you don't load the whole SemanticUI JavaScript)
 ```
-Install the wrapper:
 $ npm install semantic-ui-canjs --save
 
-And install the desired SemanticUI modules (if you don't load the whole SemanticUI JavaScript):
 $ npm install semantic-ui-popup semantic-ui-transition semantic-ui-accordion --save
-
-If you import individual SemanticUI modules don't forget that some modules might require others (e.g. Popup requires Transition, etc).
 ```
+If you import individual SemanticUI modules don't forget that some modules might require others (e.g. Popup requires Transition, etc).
 
 ## Usage
 ```
@@ -61,3 +60,4 @@ Pull requests are welcome.
 
 ## Authors
 - [Ilya Fadeev](https://github.com/ilyavf)
+- [Marshall Thompson](https://github.com/marshallswain)
