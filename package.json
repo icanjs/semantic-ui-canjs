@@ -1,0 +1,37 @@
+{
+  "name": "semantic-ui-canjs",
+  "version": "0.0.2",
+  "description": "CanJS wrapper around SemanticUI Modules",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icanjs/semantic-ui-canjs.git"
+  },
+  "keywords": [
+    "SemanticUI",
+    "Can",
+    "CanJS",
+    "Popup"
+  ],
+  "author": "Ilya Fadeev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icanjs/semantic-ui-canjs/issues"
+  },
+  "homepage": "https://github.com/icanjs/semantic-ui-canjs#readme",
+  "dependencies": {
+    "can": "^2.3.0"
+  },
+  "devDependencies": {
+    "semantic-ui-accordion": "^2.1.7",
+    "semantic-ui-popup": "^2.1.7",
+    "semantic-ui-transition": "^2.1.7",
+    "steal": "^0.16.21",
+    "steal-qunit": "^0.1.1",
+    "steal-tools": "^0.16.4",
+    "testee": "^0.2.5"
+  }
+}

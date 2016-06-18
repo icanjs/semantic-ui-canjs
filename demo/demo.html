@@ -1,0 +1,49 @@
+<!-- CSS is build from semantic-ui-less with the default theme. It includes `definitions/modules/popup` and `definitions/modules/transition`.-->
+
+<style>.demo{padding:10px 20px}.demo p{margin-top:50px}</style>
+
+<script type="text/stache" id="demo" can-autorender>
+  <can-import from="jquery" />
+  <can-import from="semantic-ui-popup/popup" />
+  <can-import from="semantic-ui-transition/transition" />
+  <can-import from="semantic-ui-accordion/accordion" />
+  <can-import from="main" />
+  <can-import from="demo/semantic-popup.css!" />
+  <can-import from="demo/semantic.min.css!" />
+
+  <div class="demo">
+
+    <p>Popup with a title and data-content</p>
+    <div semantic-module="popup" semantic-on="click" class="ui teal button" data-title="Using click events" data-content="Clicked popups will close if you click away, but not if you click inside the popup">Click Me</div>
+
+    <p>Accordion:</p>
+    <div class="ui styled accordion" semantic-module="accordion">
+      <div class="title">
+        <i class="dropdown icon"></i>
+        What is a dog?
+      </div>
+      <div class="content">
+        <p class="transition hidden">A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
+      </div>
+      <div class="title active">
+        <i class="dropdown icon"></i>
+        What kinds of dogs are there?
+      </div>
+      <div class="content active">
+        <p class="transition visible">There are many breeds of dogs. Each breed varies in size and temperament. Owners often select a breed of dog that they find to be compatible with their own lifestyle and desires from a companion.</p>
+      </div>
+      <div class="title">
+        <i class="dropdown icon"></i>
+        How do you acquire a dog?
+      </div>
+      <div class="content">
+        <p>Three common ways for a prospective owner to acquire a dog is from pet shops, private owners, or shelters.</p>
+        <p>A pet shop may be the most convenient way to buy a dog. Buying a dog from a private owner allows you to assess the pedigree and upbringing of your dog before choosing to take it home. Lastly, finding your dog from a shelter, helps give a good home to a dog who may not find one so readily.</p>
+      </div>
+    </div>
+
+  </div>
+</script>
+
+<!-- The data for the above template. -->
+<script src="../node_modules/steal/steal.js" main="can/view/autorender/"></script>
