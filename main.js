@@ -30,7 +30,7 @@ function getConfigFromAttrs(el, prefix){
     return a.name.substring(0, prefix.length) === prefix && a.value
       ? (acc[a.name.substring(prefix.length + 1)] = getValue(a), acc)
       : acc;
-  }, {})
+  }, {});
 }
 
 // TODO: some settings are not simple strings (e.g. delay is an object, also there are booleans).
